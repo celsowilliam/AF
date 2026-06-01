@@ -1,0 +1,109 @@
+/*
+AF - Avaliação Final - Linguagens de Programação
+Tema do Projeto: CineVerse - Filmes e Séries
+Aluno 1: Celso William Leite Ferreira - RA: 251053
+Professor: Abimael de Oliveira
+Data de entrega: 07/06
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #141414;
+    color: #f0f0f0;
+    padding-top: 70px;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* --- MENU --- */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000;
+    border-bottom: 2px solid #e50914;
+    z-index: 999;
+    padding: 12px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo span {
+    color: #e50914;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul a {
+    color: #f0f0f0;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+
+nav ul a:hover {
+    color: #e50914;
+}
+
+/* --- CARROSSEL --- */
+.carousel-item img {
+    height: 480px;
+    object-fit: cover;
+}
+
+/* --- APRESENTACAO --- */
+.apresentacao {
+    background-color: #1a1a1a;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.apresentacao h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.apresentacao p {
+    color: #aaa;
+}
+
+/* --- RODAPE --- */
+.rodape {
+    background-color: #000;
+    color: #aaa;
+    text-align: center;
+    padding: 30px 15px;
+    border-top: 2px solid #e50914;
+    margin-top: 40px;
+}
+
+.rodape p {
+    margin: 4px 0;
+    font-size: 0.85rem;
+}
