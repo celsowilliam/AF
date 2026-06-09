@@ -1,6 +1,6 @@
 /*
 AF - Avaliação Final - Linguagens de Programação
-Tema do Projeto: CineVerse - Filmes e Séries
+Tema do Projeto: CineVerso - Filmes e Séries
 Aluno 1: Celso William Leite Ferreira - RA: 251053
 Professor: Abimael de Oliveira
 Data de entrega: 07/06
@@ -10,7 +10,7 @@ Data de entrega: 07/06
 const btnTopo = document.querySelector('#btnTopo');
 
 if (btnTopo) {
-    window.addEventListener('scroll', function() {
+    window.addEventListener('scroll', function () {
         if (window.scrollY > 300) {
             btnTopo.classList.add('mostrar');
         } else {
@@ -18,11 +18,10 @@ if (btnTopo) {
         }
     });
 
-    btnTopo.addEventListener('click', function() {
+    btnTopo.addEventListener('click', function () {
         window.scrollTo({
             top: 0,
             behavior: 'smooth'
         });
     });
 }
-window.scrollTo()
