@@ -25,3 +25,37 @@ if (btnTopo) {
         });
     });
 }
+
+
+// 2. validacao do formulario
+const formulario = document.querySelector('#formContato');
+
+if (formulario) {
+    formulario.addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        const nome = document.querySelector('#nome').value;
+        const email = document.querySelector('#email').value;
+        const mensagem = document.querySelector('#mensagem').value;
+
+        if (nome === '' || email === '' || mensagem === '') {
+            alert('Por favor, preencha todos os campos obrigatórios.');
+        } else {
+            alert('Mensagem enviada com sucesso!');
+            formulario.reset();
+        }
+    });
+}
+
+// 3. efeito nos cards
+const cards = document.querySelectorAll('.card');
+
+cards.forEach(function(card) {
+    card.addEventListener('mouseenter', function() {
+        card.classList.add('card-ativo');
+    });
+
+    card.addEventListener('mouseleave', function() {
+        card.classList.remove('card-ativo');
+    });
+});
