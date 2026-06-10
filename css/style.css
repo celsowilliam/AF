@@ -94,7 +94,7 @@ nav ul a:hover {
 .carousel-img {
     height: 500px;
     object-fit: cover;
-    object-position: center 15%; /* <- isso move o foco pra cima (rosto) */
+    object-position: center 15%;
 }
 
 /* --- Apresentação --- */
