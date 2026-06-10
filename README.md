@@ -31,7 +31,7 @@ Site sobre filmes e séries com catálogo, lançamentos e página de contato.
 Abimael de Oliveira
 
 ## Disciplina
-Linguagens de Programação - 1º Semestre 2026
+Linguagens de Programação - 3º Semestre 2026
 
 ## Entrega
 09/06/2026
